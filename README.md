@@ -8,5 +8,5 @@ Docker/PostgreSQL/PHP
 
 ## 参考
 
-入門Laravelチュートリアル  
+Laravelチュートリアル  
 https://www.hypertextcandy.com/laravel-tutorial-introduction
