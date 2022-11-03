@@ -99,9 +99,7 @@ class TaskController extends Controller
         $task->due_date = $request->due_date;
         $task->save();
 
-        return redirect()->route('tasks.index', [
-            'id' => $task->folder_id,
-        ]);
+        return redirect()->route('tasks.index', [$folder->id]);
     }
 
     private function checkRelation(Folder $folder, Task $task)
